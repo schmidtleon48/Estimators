@@ -33,4 +33,4 @@ Here is the prediction shown, if the first state is known to be state 0.
 
 After that there is a meassurement of the output-state 0 after 10 steps. The new estimated state is shown in the following figure.
 
-![gauss_2](images/flow.png)
+![gauss_2](images/after.png)
