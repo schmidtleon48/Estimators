@@ -74,7 +74,7 @@ def kalman(Cp, Cy, H)
 
 
 ### Example 
-The System is described by the following equations (change on y2 is twice as much massurement noise):
+The System is described by the following equations (change: on y2 is twice as much massurement noise):
 ![gauss_3](images/system.jpg)
 
 The prediction and estimation is in the following graph visualized. With the prediction the uncertainty gets bigger, until there is a meassuremant and the state gets estimated with the kalman filter.
