@@ -71,3 +71,8 @@ def kalman(Cp, Cy, H)
 
 ****Retruns:**** <br />
 * Kalman Filter Matrix
+
+
+### Example 
+The System is described by the following equations:
+$$X_c = \frac{asf}{asf} $$
