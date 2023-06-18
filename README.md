@@ -12,13 +12,13 @@ Predicting states.
 prediction(A, inital, k)
 ```
 
-  **Parameters:** <br />
+  ***Parameters:*** <br />
   
 * A:        transitionmatrix
 * inital:   Initial state
 * k:        after how many timesteps predicted meassurement
 
-**Retruns:** <br />
+***Retruns:*** <br />
 * probability for predicted states
 
 #### Wonham Filter
