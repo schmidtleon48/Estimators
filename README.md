@@ -4,7 +4,7 @@
 Predicting and estimating states in hidden markov moddel.
 
 ### Function
-Predicting states.
+Predicting/ Estimating states.
 
 ### Usage
 #### Prediction
@@ -54,3 +54,20 @@ After that there is a meassurement of the output-state 0 after 10 steps. The new
 
 ## Kalman Filter
 Estimating states with the Kalman Filter.
+
+### Function
+Calculating Kalman Filter.
+
+### Usage 
+```python
+def kalman(Cp, Cy, H)
+```
+
+  ****Parameters:**** <br />
+  
+* Cp - Covariance Matrix of predicted state
+* Cy - Covariance Matrix of messuremant noise
+* H -  Meassurement Matrix
+
+****Retruns:**** <br />
+* Kalman Filter Matrix
