@@ -4,21 +4,37 @@
 Predicting and estimating states in hidden markov moddel.
 
 ### Function
-Predicting states.
+Predicting/ Estimating states.
 
 ### Usage
+#### Prediction
 ```python
 prediction(A, inital, k)
 ```
 
-  **Parameters:** <br />
+  ****Parameters:**** <br />
   
 * A:        transitionmatrix
 * inital:   Initial state
 * k:        after how many timesteps predicted meassurement
 
-**Retruns:** <br />
+****Retruns:**** <br />
 * probability for predicted states
+
+#### Wonham Filter
+```python
+wonham(pred, B, m)
+```
+
+
+  ****Parameters:**** <br />
+  
+* pred - predicted state
+* B - meassurement matrix
+* m - realized prediction
+
+****Retruns:**** <br />
+* probability for estimated states
                   
 ### Example
 This hidden markov moddel has 10 states, 5 visable outputs and after 10 steps the output is meassured. The values of the transition matrix are randomly generated. A meassurement leads to 5 equally distributed states.
@@ -34,3 +50,24 @@ Here is the prediction shown, if the first state is known to be state 0.
 After that there is a meassurement of the output-state 0 after 10 steps. The new estimated state is shown in the following figure.
 
 ![gauss_2](images/after.png)
+
+
+## Kalman Filter
+Estimating states with the Kalman Filter.
+
+### Function
+Calculating Kalman Filter.
+
+### Usage 
+```python
+def kalman(Cp, Cy, H)
+```
+
+  ****Parameters:**** <br />
+  
+* Cp - Covariance Matrix of predicted state
+* Cy - Covariance Matrix of messuremant noise
+* H -  Meassurement Matrix
+
+****Retruns:**** <br />
+* Kalman Filter Matrix
