@@ -78,4 +78,4 @@ The System is described by the following equations:
 ![gauss_3](images/system.jpg)
 
 The prediction and estimation is in the 
-![gauss_3](images/kalman.mp4)
+![](images/kalman.gif)
