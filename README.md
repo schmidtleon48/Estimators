@@ -75,4 +75,4 @@ def kalman(Cp, Cy, H)
 
 ### Example 
 The System is described by the following equations:
-$$X_c = \frac{asf}{asf} $$
+![gauss_3](images/system.jpg)
