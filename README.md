@@ -77,5 +77,5 @@ def kalman(Cp, Cy, H)
 The System is described by the following equations:
 ![gauss_3](images/system.jpg)
 
-The prediction and estimation is in the 
+The prediction and estimation is in the following graph visualized. With the prediction the uncertainty gets bigger, until there is a meassuremant and the state gets estimated with the kalman filter.
 ![](images/kalman.gif)
