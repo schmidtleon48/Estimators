@@ -29,9 +29,9 @@ wonham(pred, B, m)
 
   ****Parameters:**** <br />
   
-*pred - predicted state
-*B - meassurement matrix
-*m - realized prediction
+* pred - predicted state
+* B - meassurement matrix
+* m - realized prediction
 
 ****Retruns:**** <br />
 * probability for estimated states
